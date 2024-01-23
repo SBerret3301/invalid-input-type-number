@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Document</title>
+</head>
+<style>
+    /* Input styles for number input */
+    input {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        width: 300px;
+        background-color: rgb(168, 230, 209);  /* Set background color for the input */
+        color: #000;  /* Set text color for the input */
+    }
+
+    /* Invalid input style for number input */
+    input:invalid {
+        border: 1px solid red;  /* Apply a red border when the input value is invalid */
+    }
+</style>
+<body>
+    <!-- Number input with minimum and maximum values -->
+    <input type="number" min="5" max="10">
+</body>
+</html>
